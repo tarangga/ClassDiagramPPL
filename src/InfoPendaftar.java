@@ -5,7 +5,10 @@ public class InfoPendaftar {
 	public int jumlahPendaftar;
 	public String kolaboratorId;
 	
-	public void updateInfoPendaftar(int num){
-		this.jumlahPendaftar = this.jumlahPendaftar + num;
+	public String getPendaftar(int penggunaId) {
+		if (penggunaId == this.penggunaId) {
+			return this.penggunaName;
+		}
+		return "";
 	}
 }
