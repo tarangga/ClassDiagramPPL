@@ -2,7 +2,7 @@
 public class Manusia {
 	public int userid;
 	public String email;
-	private String password;
+	public String password;
 	
 	public boolean verifyLogin(int userid, String password) {
 		if(this.userid == userid) {
