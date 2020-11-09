@@ -1,9 +1,10 @@
 
 public class Pelatihan {
+	public String pelatihanName;
+	public int pelatihanId;
 	public String linkPelatihan;
-	public String jadwalPelatihan;
 	public String kategoriPelatihan;
-	public String lokasiPelatihan;
+	public String deskripsiPelatihan;
 	
 	public String redirectLink() {
 		return linkPelatihan;
