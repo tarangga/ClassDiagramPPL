@@ -6,8 +6,12 @@ public class Pelatihan {
 	public String kategoriPelatihan;
 	public String deskripsiPelatihan;
 	
-	public String redirectLink() {
-		return linkPelatihan;
+	public Pelatihan() {
+		
+	}
+	
+	public String daftarPelatihan() {
+		return this.linkPelatihan;
 	}
 	
 }

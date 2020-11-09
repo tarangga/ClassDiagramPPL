@@ -4,5 +4,12 @@ public class Event {
 	public int eventId;
 	public int kuotaEvent;
 	public String deskripsiEvent;
+	public int kolaboratorId;
+	public String linkEvent;
+	public String kategoriEvent;
+	
+	public String daftarEvent() {
+		return this.linkEvent;
+	}
 	
 }

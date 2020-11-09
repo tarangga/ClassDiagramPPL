@@ -15,12 +15,18 @@ public class Administrator extends Manusia implements iEditor {
 	}
 
 	@Override
-	public void hapusEvent() {
-		// TODO Auto-generated method stub
-		
+	public Event hapusEvent() {
+		Event event = null;
+		return event;
 	}
 	
 	private Pelatihan tambahPelatihan(String name, int pelatihanId, String link, String jadwal, String kategori, String deskripsi) {
-		return Pelatihan()
+		Pelatihan pelatihan = new Pelatihan();
+		pelatihan.pelatihanName = name;
+		pelatihan.pelatihanId = pelatihanId;
+		pelatihan.linkPelatihan = link;
+		pelatihan.deskripsiPelatihan = jadwal + "\n" + deskripsi;
+		pelatihan.kategoriPelatihan = kategori;
+		return pelatihan;
 	}
 }
